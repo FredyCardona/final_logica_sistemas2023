@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Operaciones</title>
+  <script src="app.js">
+  </script>
+</head>
+<body>
+  <h1>Operaciones</h1>
+  <input id="input1" type="number" placeholder="Ingrese el primer número"><br>
+  <input id="input2" type="number" placeholder="Ingrese el segundo número"><br>
+  <input id="input3" type="number" placeholder="Ingrese el tercer número"><br>
+  <button onclick="validarOperacion()">Validar Operación</button>
+  <button onclick="unirValores()">Unir Valores</button>
+  <h2 id="resultado"></h2>
+  <h2 id="resultadoUnir"></h2>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    input {
+      display: block;
+      margin-bottom: 10px;
+      padding: 5px;
+      width: 200px;
+    }
+
+    button {
+      margin-bottom: 10px;
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+
+    h2 {
+      margin-top: 20px;
+    }
+  </style>
+</body>
+</html>
